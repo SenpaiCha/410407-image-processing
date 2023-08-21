@@ -1,8 +1,7 @@
 weight = int(input('Please enter your weight (kg): '))
 hight = int(input('Please enter your hight (cm): '))
 
-cm = 100 / hight
-
+cm = hight / 100
 bmi = weight / (cm * 2)
 
 if bmi < 18.5:
